@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>최주영 포트폴리오 홈페이지 입니다</title>
+  <link rel="icon" type="image/x-icon" href="cjy_001.ico"/>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id=container>
+    <header>
+      <nav>
+        <ul id="topMenu">
+          <li><a href="#container"><b>HOME</b></a></li>
+          <li><a href="#about"><b>ABOUT</b></a></li>
+          <li><a href="#Resume"><b>RESUME</b></a></li>
+          <li><a href="#PROJECTS"><b>PROJECTS</b></a></li>
+          <li><a href="#ACTIVITES"><b>ACTIVITES</b></a></li>
+          <li><a href="#CONTACT"><b>CONTACT</b></a></li>
+        </ul>
+      </nav>
+      </header>
+    <main>
+      <div id="introduce">
+        <h1>Java Web開発者<br>　チェジュヨンです。</h1>
+        <P>私はJavaやPythonを主に使う開発者です。 <br>最近はバックエンド以外に企画、プロントエンドにも関心を持っています。 <br>趣味はサッカーや旅行です。</P>
+        <a href="#"><img src="깃허브.png" alt="깃허브"id="깃허브"></a> 
+        <a href="#"><img src="인스타.png" id="인스타"></a>
+        <button id="down" onclick = "location.href = '#about'"></button>
+      </div>
+      
+      <div id="about">
+        <div id="me">
+          <div id="pic">
+            <img src="최주영2.jpeg" alt="나">
+          </div>
+        <h2>About Me</h2><br>
+        <p>私はチェジュヨンと申します。</p></br>
+        <h2>Contact Details</h2><br>
+        <p>チェジュヨン</p>
+        <p>cjyv1029@naver.com</p>
+        </div>
+      </div>
+      <div id="Resume">
+        <div id="Education">
+          <div id= "name">
+            <h3>EDUCATION</h3>
+          </div>
+          <div id="content">
+            <h3>湖西大学</h3>
+            <p>デジタル技術経営学科 • February 2021(卒業)</p>
+            <h3>聖学院大学</h3>
+            <p>政治経済学科 • February 2019(交換留学)</p>
+            <h3>Soldesk</h3>
+          </div>
+        </div>
+        <div id="Skill">
+          <div id="name">
+           <h3>SKILLS</h3>
+          </div>
+          <div id=skills>
+            <p>JAVA, Javascript, Python</p>
+            <h2>LANGUAGE</h2>
+              <h4>JAVA</h4>
+              <div id="graph">
+              <span class="orange" style="width: 30%;">a</span>
+              </div>
+              <h4>Javascript</h4>
+              <div id="graph">
+              <span class="brown" style="width: 40%;">b</span>
+              </div>
+              <h4>Python</h4>
+              <div id="graph">
+              <span class="red" style="width: 10%;">c</span>
+              </div>
+            <h2>FRAMEWORK</h2>
+              <h4>Spring</h4>
+              <div id="graph">
+              <span class="blue" style="width: 10%;">a</span>
+              </div>
+              <h4>Node.js</h4>
+              <div id="graph">
+              <span class="green" style="width: 10%;">a</span>
+              </div>
+              <h4>React.js</h4>
+              <div id="graph">
+              <span class="sky" style="width: 10%;">a</span>
+              </div>
+            <h2>DATABASE</h2>
+              <h4>mongoDB</h4>
+              <div id="graph">
+              <span class="yellow" style="width: 10%;">a</span>
+              </div>
+              <h4>MySQL</h4>
+              <div id="graph">
+              <span class="pink" style="width: 30%;">a</span>
+              </div>
+            <h2>ETC</h2>
+              <h4>Git</h4>
+              <div id="graph">
+              <span class="mint" style="width: 50%;">a</span>
+              </div>
+              <h4>AWS</h4>
+              <div id="graph">
+              <span class="lightgreen" style="width: 10%;">a</span>
+              </div>
+          </div>
+          </div>
+        </div>
+        <div id="PROJECTS">
+          <div id="slideShow">
+            <p>CHECK OUT SOME OF MY PROJECTS.</p>
+            <div id="slides">
+              <img src="도쿄.jpg" alt="">
+              <img src="도쿄2.jpg" alt="">
+              <img src="도쿄3.jpg" alt="">
+              <button id="prev">&lang;</button>
+              <button id="next">&rang;</button>
+            </div>
+          </div>
+        </div>
+        <div id="ACTIVITES">
+          <div id="PRESENTATIONS">
+           <div id="name">
+             <h3>PRESENTATIONS</h3>
+           </div>
+           <div id=content2>
+           </div>
+          </div>
+          <div id="STUDIES">
+            <div id="name">
+              <h3>STUDIES</h3>
+            </div>
+            <div id=content2>
+              <h4>soldesk 日本語 study</h4>
+              <p>2021/05/02~</p><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="CONTACT">
+        <div id="address">
+            <p>下記に連絡先がございますので遠慮なく連絡してください。</p>
+            <h3>Email:cjyv1029@naver.com</h3>
+            <h3>Phone:010-2052-2140</h3>
+        </div>
+        <button id="up" onclick = "location.href = '#container'"></button>
+      </div>
+      <div id="cover"></div>
+    </footer>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
